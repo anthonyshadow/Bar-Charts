@@ -34,7 +34,7 @@ plt.xlabel("Subjects")
 plt.title("Test Scores by country")
 
 plt.xticks(index + .3/2, ("Math", "Reading", "Science"))
-plt.legend()
+plt.legend(frameon=False, bbox_to_anchor= (1,1), loc=2)
 plt.grid(True)
 
 
